@@ -27,9 +27,9 @@ The application uses your computer's webcam to monitor a room. When motion is de
 
 ```text
 ├── app.py
-├── alertMsg.py
+├── alert.py
 ├── configure.py
-├── intrusionDetect.py
+├── intrusion.py
 ├── user.py
 └── README.md
 ```
@@ -97,7 +97,7 @@ cd <PROJECT-FOLDER>
 Run:
 
 ```bash
-python 3.User_Details.py
+python user.py
 ```
 
 Enter the email address that should be used by the application.
@@ -117,7 +117,7 @@ with the email configuration.
 Run:
 
 ```bash
-python 1.Set_and_Detect.py
+python app.py
 ```
 
 A window will open with two options:
