@@ -26,11 +26,11 @@ The application uses your computer's webcam to monitor a room. When motion is de
 ## 📁 Project Files
 
 ```text
-├── 1.Set_and_Detect.py
-├── 2.Motion_Detection.py
-├── 3.User_Details.py
-├── message.py
-├── configure.py
+├── app.py
+├── 
+├── 
+├── 
+├── 
 └── README.md
 ```
 
