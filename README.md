@@ -1,20 +1,20 @@
-# 🔐 Motion Detection & Intrusion Alert System
+# Motion Detection & Intrusion Alert System
 
 A simple Python-based **motion detection and intrusion alert system** using OpenCV and Tkinter.
 
 The application uses your computer's webcam to monitor a room. When motion is detected, it identifies the room as **occupied**, captures screenshots, and triggers an alert.
 
-## ✨ Features
+## Features
 
-- 🎥 Real-time webcam monitoring
-- 🔍 Motion detection using OpenCV
-- 🚨 Intrusion/occupancy detection
-- 📸 Automatic screenshots when motion is detected
-- 📧 Email alert functionality
-- 🖥️ Simple Tkinter-based interface
-- ⚙️ User email configuration
+- Real-time webcam monitoring
+- Motion detection using OpenCV
+- Intrusion/occupancy detection
+- Automatic screenshots when motion is detected
+- Email alert functionality
+- Simple Tkinter-based interface
+- User email configuration
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - OpenCV
@@ -23,7 +23,7 @@ The application uses your computer's webcam to monitor a room. When motion is de
 - `time`
 - `os`
 
-## 📁 Project Files
+## Project Files
 
 ```text
 ├── app.py
@@ -58,7 +58,7 @@ This module:
 
 This module collects the target email credentials and stores them in `configure.py`.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Step 1: Install Python
 
@@ -110,7 +110,7 @@ configure.py
 
 with the email configuration.
 
-> ⚠️ **Security Note:** Do not upload real email passwords or other credentials to a public GitHub repository. Use environment variables or another secure configuration method for production use.
+> **Security Note:** Do not upload real email passwords or other credentials to a public GitHub repository. Use environment variables or another secure configuration method for production use.
 
 ### Step 5: Start the Application
 
@@ -128,7 +128,7 @@ Starts the webcam and begins motion detection.
 **Set Target Email**  
 Configures the email details used by the alert system.
 
-## 🎥 Using Motion Detection
+## Using Motion Detection
 
 After selecting **Start Tracking**:
 
@@ -139,7 +139,7 @@ After selecting **Start Tracking**:
 5. An alert is triggered after the detection threshold is reached.
 6. Press **ESC** to stop the camera.
 
-## 📸 Screenshots
+## Screenshots
 
 When motion is detected, screenshots are saved automatically in the project directory.
 
@@ -152,7 +152,7 @@ screen3.png
 ...
 ```
 
-## ⚠️ Important Notes
+## Important Notes
 
 - Make sure your webcam is connected and accessible.
 - Allow camera permissions when prompted.
@@ -160,7 +160,7 @@ screen3.png
 - Test the system in a controlled environment before using it for actual security monitoring.
 - Do not commit passwords, API keys, or other sensitive information to GitHub.
 
-## 🔮 Possible Improvements
+## Possible Improvements
 
 Some ideas for extending the project:
 
@@ -174,6 +174,6 @@ Some ideas for extending the project:
 - Email alerts with captured images
 - Remote monitoring
 
-## 👩‍💻 Author
+## Author
 
 Developed as a Python/OpenCV cybersecurity and computer-vision project.
