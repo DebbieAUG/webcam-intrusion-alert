@@ -27,10 +27,10 @@ The application uses your computer's webcam to monitor a room. When motion is de
 
 ```text
 ├── app.py
-├── 
-├── 
-├── 
-├── 
+├── alertMsg.py
+├── configure.py
+├── intrusionDetect.py
+├── user.py
 └── README.md
 ```
 
