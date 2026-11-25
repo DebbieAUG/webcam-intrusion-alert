@@ -1,2 +1,2 @@
-USER_NAME = ("")
-PASSWORD = ("")
+USER_NAME=("debbie@gmail.com") # sample
+PASSWORD=("")
